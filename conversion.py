@@ -15,10 +15,3 @@ def oct_to_hex(n):
     hexa = hex(n)
     return hexa
 
-
-n = int(input("Enter binary number: "))
-print("Decimal: ", bin_to_dec(n))
-n = input("Enter octal number(0-7)")
-n = "0o" + n
-print("Hexadecimal number is: ", oct_to_hex(n))
-
